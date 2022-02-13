@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: ethnocentric;
+    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    gap: 7em; 
+    padding: 1rem 14rem 7rem;
+    
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between; 
+       
+}
+.logo{
+    font-size: 32px;
+    color: #e5e7eb;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
+
+.right-hero img{
+    width: 600px;
+    border-radius: 10px;
+    
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 2rem;
+    flex: 1 1 0;
+}
+
+h1{
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+p{
+    color: #f9faf9;;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    width: 10%;
+    font-weight: bold;
+}
+
+
+
+.main{
+    display: flex;
+    flex: 1;
+    flex-direction: column; 
+    text-align: center;
+    
+}
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 70px;
+}
+.card img{
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
+
+}
+.text{
+    width: 220px;
+    word-break: break-all;
+    text-align: center;
+      
+}
+
+.quote-container{
+    background-color: #e5e7eb; 
+    
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 14rem 5rem 14rem;
+    font-size: 36px;
+    color: #1f2937;
+}
+h4{
+    align-self: flex-end;
+    margin: 0;
+}
+
+
+.final-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+.blue-card{
+    display: flex;
+    background-color: #388ef6;
+    padding: 40px 40px 40px 40px;
+    justify-content:center;
+    align-items: center;
+    border-radius: 10px;
+    gap:80px;
+    
+    
+}
+
+.header-text{
+    display: flex;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+.card-text{
+    display: flex;
+    color: #e5e7eb;
+    
+        
+    
+}
+.final-main button{
+    border-color: #e5e7eb;
+    border-style: solid;
+    width: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 30px;
+}
