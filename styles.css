@@ -6,9 +6,11 @@ body{
     
 }
 @font-face {
-    font-family: ethnocentric;
-    src: url(../ethnocentric\ rg.ttf);
-}
+    font-family: 'EthnocentricRg-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('EthnocentricRg-Regular'), url('ethnocentric rg.woff') format('woff');
+    }
 
 .wrapper{
     display: flex;
